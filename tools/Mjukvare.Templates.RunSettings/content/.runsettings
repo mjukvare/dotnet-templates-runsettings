@@ -9,6 +9,9 @@
             <DataCollector friendlyName="XPlat Code Coverage">
                 <Configuration>
                     <Format>opencover</Format>
+                    <ExcludeByAttribute>Obsolete,GeneratedCodeAttribute,CompilerGeneratedAttribute,ExcludeFromCodeCoverage</ExcludeByAttribute>
+                    <UseSourceLink>true</UseSourceLink>
+                    <IncludeTestAssembly>true</IncludeTestAssembly>
                 </Configuration>
             </DataCollector>
         </DataCollectors>
