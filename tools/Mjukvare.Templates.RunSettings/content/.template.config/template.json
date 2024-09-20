@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Nicklas Millard",
+  "identity": "Mjukvare.RunSettings",
+  "name": ".runsettings configuration file",
+  "shortName": "runsettings",
+  "tags": {
+    "language": "",
+    "type": "item"
+  },
+  "classifications": ["Config"]
+}

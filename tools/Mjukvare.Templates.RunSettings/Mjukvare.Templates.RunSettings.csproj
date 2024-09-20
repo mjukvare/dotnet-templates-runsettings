@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <PackageId>Mjukvare.Templates.RunSettings</PackageId>
+        <PackageVersion>1.0</PackageVersion>
+        <Title>RunSettings</Title>
+        <Authors>Nicklas Millard</Authors>
+        <Company>Mjukvare ApS</Company>
+        <Description>.runsettings template using XPlat Code Coverage data collector.</Description>
+        <PackageTags>Run Settings;.runsettings;XPlat Code Coverage;Unit Tests;Test Results</PackageTags>
+        <PackageProjectUrl>https://github.com/mjukvare/dotnet-templates-runsettings</PackageProjectUrl>
+
+        <PackageType>Template</PackageType>
+        <TargetFramework>net8.0</TargetFramework>
+        <IncludeContentInPack>true</IncludeContentInPack>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <ContentTargetFolders>content</ContentTargetFolders>
+        <NoWarn>$(NoWarn);NU5128</NoWarn>
+        <NoDefaultExcludes>true</NoDefaultExcludes>
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <LocalizeTemplates>false</LocalizeTemplates>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.TemplateEngine.Tasks" Version="*" PrivateAssets="all" IsImplicitlyDefined="true"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="content\**\*" Exclude="content\**\bin\**;content\**\obj\**" />
+        <Compile Remove="**\*" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../../readme.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+</Project>

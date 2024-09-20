@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{45F36CBA-CC66-408B-8757-91F9D62953AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mjukvare.Templates.RunSettings", "tools\Mjukvare.Templates.RunSettings\Mjukvare.Templates.RunSettings.csproj", "{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Debug|x64.Build.0 = Debug|Any CPU
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Debug|x86.Build.0 = Debug|Any CPU
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Release|x64.ActiveCfg = Release|Any CPU
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Release|x64.Build.0 = Release|Any CPU
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Release|x86.ActiveCfg = Release|Any CPU
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D894C5B1-0F35-4837-8A9F-8F457CBE2A7C} = {45F36CBA-CC66-408B-8757-91F9D62953AC}
+	EndGlobalSection
+EndGlobal
