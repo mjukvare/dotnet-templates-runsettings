@@ -1,13 +1,22 @@
-# Simple RunSettings dotnet template
+# Simple RunSettings .NET Template
 
-This template provides a simple RunSettings unit test configuration file that you can modify yourself afterward.  
-The file is called `.runsettings` and should be placed at the solution root directory.
+This template provides a basic `.runsettings` configuration file for unit tests in a .NET solution. You can easily
+customize this file to suit your project's needs. The file should be placed at the root directory of your solution.
 
-- [Read microsoft's documentation on Run Settings](https://learn.microsoft.com/en-us/visualstudio/test/configure-unit-tests-by-using-a-dot-runsettings-file?view=vs-2022)
+- [Read Microsoft's documentation on Run Settings](https://learn.microsoft.com/en-us/visualstudio/test/configure-unit-tests-by-using-a-dot-runsettings-file)
 
-## Install the template
+## Installation
 
-Run `dotnet install Mjukvare.Templates.RunSettings`
+To install the template, run the following command:
+
+```sh
+dotnet new install Mjukvare.Templates.RunSettings
+```
 
 ## Usage
-Run `dotnet new runsettings` from the solution root.
+
+To create a new `.runsettings` file in your solution's root directory, run:
+
+```sh
+dotnet new runsettings
+```
